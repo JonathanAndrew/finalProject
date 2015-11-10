@@ -111,7 +111,7 @@ h1 {
 
 #container.background-resume {
   background-color: rgba(0,0,0,.4);
-  height: 2350px;
+  height: 2335px;
   border-radius: 10px;
   border: 2px solid #002244;
 }
@@ -639,6 +639,15 @@ article img {
   margin: 5px 5px 5px 5px;
 }
 
+.enjoy h1 {
+  text-align: center;
+  color: #000;
+  background: rgba(255,255,255,.3);
+  border-radius: 5px;
+  border: 2px solid #69BE28;
+  padding: 15px 15px;
+  margin: 5px 5px 5px 5px;
+}
 
 article h1 {
   text-align: center;
