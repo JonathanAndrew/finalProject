@@ -58,7 +58,7 @@ body {
 header {
   border-radius: 10px;
   border: 2px solid #002244;
-  background-image: url(../images/seattle.jpg);
+  background-image: url(images/seattle.jpg);
   background-size: cover;
   height: 400px;
   max-width: 1200px;
@@ -102,16 +102,16 @@ h1 {
 
 #container.background {
   background-color: rgba(0,0,0,.4);
-  background-image: url("../images/background.jpg");
+  background-image: url("images/background.jpg");
   background-size: cover;
-  height: 1550px;
+  height: 1670px;
   border-radius: 10px;
   border: 2px solid #002244;
 }
 
 #container.background-resume {
   background-color: rgba(0,0,0,.4);
-  height: 2015px;
+  height: 2350px;
   border-radius: 10px;
   border: 2px solid #002244;
 }
@@ -128,9 +128,11 @@ h1 {
 }
 
 #twelve img {
+  box-shadow: 2px 2px rgba(0,0,0,.9);
   max-width: 50px;
   max-height: 50px;
-  margin-left: 50px;
+  margin-left: 92px;
+  margin-top:25px;
   border: 2px solid #69BE28;
   padding: 1px 1px 1px 1px;
 }
@@ -218,6 +220,8 @@ button:hover {
 }
 
 .upper-box-right {
+  width: 735px;
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   float: right;
   border-radius: 5px;
   margin: 15px 10px 0 0px;
@@ -226,16 +230,17 @@ button:hover {
 }
 
 .upper-box-middle-hi {
-
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   float: right;
   width: 495px;
   border-radius: 5px;
-  margin: 15px 125px 0 15px;
+  margin: 15px 110px 0 15px;
   border: 2px solid #69BE28;
   padding: 5px 5px;
 }
 
 .upper-box-middle-passions {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   clear: both;
   float: right;
   border-radius: 5px;
@@ -247,7 +252,7 @@ button:hover {
 
 
 .upper-box-me {
-  border-radius: 5px;
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   margin: 50px 5px 0 15px;
   width: 420px;
   float: left;
@@ -256,25 +261,28 @@ button:hover {
 }
 
 .upper-box-waterfall {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   margin: auto;
   width: 420px;
   float: left;
   border: 2px solid #69BE28;
   padding: 5px 5px;
-  margin: 100px 0 0 15px;
+  margin: 100px 0 0 45px;
 }
 
 .upper-box-name {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   text-decoration: underline;
   border: 2px solid #69BE28;
   border-radius: 5px;
-  margin: 50px 125px 0 0;
+  margin: 50px 110px 0 0;
   width: 500px;
   float: right;
 }
 
 .upper-box-about {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   width: 300px;
   margin: 0 auto;
   margin-top: 15px;
@@ -282,6 +290,7 @@ button:hover {
 }
 
 .upper-box-summary {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   float: left;
   width: 900px;
   padding: 5px 5px;
@@ -315,6 +324,7 @@ button:hover {
 }
 
 .rectangle {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   border: 5px groove black;
   
@@ -329,6 +339,7 @@ button:hover {
 }
 
 .middle-box {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   margin: 10px 0px 10px 0px;
   border: 2px solid #69BE28;
@@ -336,6 +347,7 @@ button:hover {
 
 
 .middle-box-right {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   float: right;
   width: 650px;
@@ -349,7 +361,8 @@ button:hover {
 }
 
 .middle-box-low {
-  margin: 20px 310px 0 0;
+  box-shadow: 2px 2px rgba(250,250,250,.9);
+  margin: 20px 275px 0 0;
   border-radius: 5px;
   border: 5px solid black;
   float: right;
@@ -358,17 +371,18 @@ button:hover {
 }
 
 .middle-box-foot {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   padding: 5px 5px;
   margin: 30px 15px 0 0px;
   border: 2px solid #69BE28;
-  max-width: 770px;
   float: right;
 }
 
 .middle-box-foot-minor {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
-  margin: 20 210 0 15px;
+  margin: 20 165 0 15px;
   border: 5px solid black;
   max-width: 770px;
   float: right;
@@ -377,9 +391,10 @@ button:hover {
 }
 
 .middle-box-foot-uw {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   margin:0 auto;
-  margin: 20 245px 0 15px;
+  margin: 20 215px 0 15px;
   border: 2px solid #69BE28;
   padding: 5px 5px;
   max-width: 770px;
@@ -396,6 +411,7 @@ aside.middle-box-uw{
 }
 
 #waterfall {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   float: left;
   max-width: 400px;
   max-height: 400px;
@@ -404,6 +420,7 @@ aside.middle-box-uw{
 }
 
 .middle-box-specialties {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   margin: 15px 0 0 150;
   padding: 5px 5px;
@@ -415,6 +432,7 @@ aside.middle-box-uw{
 
 
 .middle-box-specialtiestext {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   clear: both;
   padding: 5px 5px;
@@ -433,6 +451,7 @@ aside.middle-box-uw{
 }
 
 .middle-box-experience {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   height: 55px;
   border-radius: 5px;
   margin: 15px 0 0 485px;
@@ -452,6 +471,7 @@ aside.middle-box-uw{
 }
 
 .middle-box-experiencebox {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   clear: both;
   padding: 5px 5px;
@@ -484,6 +504,7 @@ aside.middle-box-uw{
 }
 
 .middle-box-cma {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   border-radius: 5px;
   clear: both;
   padding: 5px 5px;
@@ -529,6 +550,7 @@ aside.middle-box-uw{
 }
 
 .middle-box-marketing {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
     border-radius: 5px;
     clear: both;
     padding: 5px 5px;
@@ -576,6 +598,7 @@ line-height:1;
 }
 
  img {
+  box-shadow: 2px 2px rgba(250,250,250,.9);
   float: left;
   max-height: 160px;
   max-width: 160px;
@@ -623,7 +646,7 @@ article h1 {
   background: white;
   border-radius: 5px;
   border: 2px solid #69BE28;
-  padding: 5px 0px 5px 5px;
+  padding: 15px 15px;
   margin: 5px 5px 5px 5px;
 }
 
@@ -651,17 +674,18 @@ section h2 {
 
 h3 {
   margin: 0 auto;
-  padding: 15px 0 0 15px;
+  padding: 15px 15px;
   background-color: #fff;
   color: #000;
 }
 
 
  h4 {
+
   color: #000;
   font-size: 20px;
   background-color: white;
-  padding: 10px 0 0 15px;
+  padding: 15px 15px;
   margin: 0 auto;
 }
 
@@ -669,7 +693,7 @@ h3 {
   color: #000;
   font-size: 20px;
   background-color: white;
-  padding: 10px 0 0 15px;
+  padding: 15px 15px;
   margin: 0 auto;
 }
 
@@ -687,6 +711,7 @@ h6 {
   background-color: white;
   border: 2px solid black;
   border-radius: 5px;
+  padding: 15px 15px;
 
 }
 
