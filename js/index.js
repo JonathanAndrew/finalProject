@@ -1,28 +1,53 @@
 $(document).ready(function() {
 	
 
+//options( 1 - ON , 0 - OFF)  
+        var auto_slide = 1;  
+            var hover_pause = 1;  
+        var key_slide = 1;  
+  
+        //speed of auto slide(  
+        var auto_slide_seconds = 5000;  
+        /* IMPORTANT: i know the variable is called ...seconds but it's 
+        in milliseconds ( multiplied with 1000) '*/
 
-$('#links .aboutMe').click(function( event ) {
+
+  $( ".hamburger" ).click(function() {
+
+
+    $( ".links" ).slideToggle( "slow", function() {
+
+    });
+
+  });
+
+$('.links .about').click(function( event ) {
 	event.preventDefault();
-	$('#container').slideToggle();
-	$('.resumeBox').hide();
-	$('.portfolioBox').hide();
+	$('.aboutMeBox').slideToggle('#container');
+  $('.resumeBox').hide();
+  $('.portfolioBox').hide();
 });
 
-$('#links .resume').click(function( event ) {
+$('.links .resume').click(function( event ) {
 	event.preventDefault();
 	$('#container.background.resumeBox').slideToggle();
 	$('.aboutMeBox').hide();
 	$('.portfolioBox').hide();
 });
 
-$('#links .portfolio').click(function( event ) {
+$('.links .portfolio').click(function( event ) {
 	event.preventDefault();
 	$('#container.portfolioBox').slideToggle();
 	$('.resumeBox').hide();
 	$('.aboutMeBox').hide();
 
 });
+
+$('ul#menu li ul.sub-menu li a').click(function(){
+	event.preventDefault();
+	$('.slider').hide();
+	$('#slider img ').show();
+})
 
 
 // settings
@@ -63,6 +88,7 @@ $('#links .portfolio').click(function( event ) {
 	
 
 });
+
 
 
 });
